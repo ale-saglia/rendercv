@@ -226,4 +226,5 @@ addopts = [
 testpaths = ["tests"]
 
 [tool.codespell]
-skip = "*.md"
+skip = "*.md,*.pdf,*/typst_fontawesome/*,*/other_locales/*"
+exclude-file = "schema.json"

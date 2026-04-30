@@ -10,9 +10,6 @@ repos:
         name: codespell
         language: system
         entry: uv run --frozen codespell
-        args:
-          - --skip=src/rendercv/schema/models/locale/other_locales/*
-          - --exclude-file=schema.json
       - id: ruff-check
         name: ruff check
         language: system
